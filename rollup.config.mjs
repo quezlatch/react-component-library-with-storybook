@@ -38,7 +38,7 @@ const config = [
         ],
       }),
       postcss({
-        plugins: []
+        extract: 'ui-lib.css'
       }),
     ],
   },

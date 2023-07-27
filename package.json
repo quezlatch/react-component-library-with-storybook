@@ -14,7 +14,8 @@
   "files": [
     "lib",
     "README.md",
-    "packake.json"
+    "package.json",
+    "ui-lib.css"
   ],
   "keywords": [],
   "author": "Michael Dickens",

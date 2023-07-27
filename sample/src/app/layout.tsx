@@ -1,4 +1,6 @@
 import './globals.css'
+import 'ui-lib/lib/ui-lib.css'
+
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 

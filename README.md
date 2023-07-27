@@ -9,6 +9,7 @@ Note, this is more about the wiring that an actual useful UI library.
 
 * Dear god! The node ecosystem. Why does nothing just work?
 * And why does each version of something work differently?
+* `ui-lib` is extracted into it's own file and must be included separately. Is maybe a better way?
 
 ### React
 
@@ -24,6 +25,8 @@ Note, this is more about the wiring that an actual useful UI library.
 
 ### Rollup
 
+* Extract CSS rather than embedding in bundle so that SSR doesn't break it. Not sure this is the best approach though...
+
 ### Typescript
 
 * Used `npx tsc init`
@@ -32,3 +35,5 @@ Note, this is more about the wiring that an actual useful UI library.
 ### NextJs
 
 * Should be a good work out for a nested sample app
+* SSR means the embedded tailwind css doesn't make it to browser (i think)
+* Explicitly importing the ui-lib css

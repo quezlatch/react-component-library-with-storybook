@@ -21,11 +21,14 @@ Note, this is more about the wiring that an actual useful UI library.
 ### Tailwind
 
 * I just really like tailwind...
-* 
+
 ### Rollup
 
 ### Typescript
 
 * Used `npx tsc init`
 * Using `baseUrl` cos it looks nice but it isn't half fiddly
+
+### NextJs
+
 * 

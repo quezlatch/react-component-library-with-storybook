@@ -33,7 +33,6 @@ const config = [
       commonjs(),
       typescript({
         exclude: [
-          "node_modules",
           /\.test.((js|jsx|ts|tsx))$/,
           /\.stories.((js|jsx|ts|tsx))$/,
         ],
@@ -47,11 +46,7 @@ const config = [
     input: "lib/types/index.d.ts",
     output: [{ file: "lib/index.d.ts", format: "es" }],
     plugins: [
-      dts({
-        compilerOtions: {
-          baseUrl: "./src",
-        },
-      }),
+      dts({}),
     ],
     external: [/\.css$/],
   },

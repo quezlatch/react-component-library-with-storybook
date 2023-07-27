@@ -27,8 +27,8 @@ Note, this is more about the wiring that an actual useful UI library.
 ### Typescript
 
 * Used `npx tsc init`
-* Using `baseUrl` cos it looks nice but it isn't half fiddly
+* Not using `baseUrl` cos it looks nice but it isn't half fiddly. And docs imply it shouldn't be used willy nilly
 
 ### NextJs
 
-* 
+* Should be a good work out for a nested sample app

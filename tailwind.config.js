@@ -5,13 +5,12 @@
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/ui-lib/lib/index.js'
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+	content: [
+		'./src/components/**/*.{js,ts,jsx,tsx,mdx}',
+		'./node_modules/ui-lib/lib/index.js',
+	],
+	theme: {
+		extend: {},
+	},
+	plugins: [],
 }
-

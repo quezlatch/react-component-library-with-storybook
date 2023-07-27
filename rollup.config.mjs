@@ -38,6 +38,9 @@ const config = [
           /\.stories.((js|jsx|ts|tsx))$/,
         ],
       }),
+      postcss({
+        plugins: []
+      }),
     ],
   },
   {

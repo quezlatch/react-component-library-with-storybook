@@ -10,6 +10,7 @@ Note, this is more about the wiring that an actual useful UI library.
 * Dear god! The node ecosystem. Why does nothing just work?
 * And why does each version of something work differently?
 * `ui-lib` is extracted into it's own file and must be included separately. Is maybe a better way?
+* if you're using tailwind at the client use a preset instead of importing css
 
 ### React
 
@@ -22,6 +23,7 @@ Note, this is more about the wiring that an actual useful UI library.
 ### Tailwind
 
 * I just really like tailwind...
+* preset has content configured to scan `ui-lib` for usage
 
 ### Rollup
 

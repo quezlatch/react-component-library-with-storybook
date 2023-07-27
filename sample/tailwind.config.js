@@ -1,9 +1,10 @@
+const uiLibConfig = require('ui-lib/tailwind.config');
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    ...uiLibConfig.content
   ],
   theme: {
     extend: {
@@ -15,4 +16,7 @@ module.exports = {
     },
   },
   plugins: [],
+  presets: [
+    uiLibConfig
+  ]
 }

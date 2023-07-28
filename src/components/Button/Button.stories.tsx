@@ -17,5 +17,13 @@ type Story = StoryObj<typeof meta>
 export const Primary: Story = {
 	args: {
 		label: 'Hello World!',
+		type: 'primary',
+	},
+}
+
+export const Secondary: Story = {
+	args: {
+		label: 'Goodbye Cruel World!',
+		type: 'secondary',
 	},
 }

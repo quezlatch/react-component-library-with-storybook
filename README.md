@@ -11,6 +11,7 @@ Note, this is more about the wiring that an actual useful UI library.
 - And why does each version of something work differently?
 - `ui-lib.css` is extracted into it's own file and must be included separately. Is maybe a better way?
 - if you're using tailwind at the client use a preset instead of importing css
+- using tailwind-variants for, er, variants. bleeds through in the types so how to resolve this...
 
 ### React
 
@@ -25,6 +26,7 @@ Note, this is more about the wiring that an actual useful UI library.
 - I just really like tailwind...
 - see **sample** for how config is inherited
 - preset has content configured to scan `ui-lib` for usage
+- added classRegex to settings for tailwind variants
 
 ### Rollup
 

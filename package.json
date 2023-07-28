@@ -22,7 +22,8 @@
 	"license": "ISC",
 	"peerDependencies": {
 		"react": ">=16.8.0",
-		"react-dom": ">=16.8.0"
+		"react-dom": ">=16.8.0",
+		"tailwind-variants": "^0.1.13"
 	},
 	"devDependencies": {
 		"@babel/preset-env": "^7.22.9",
@@ -55,6 +56,7 @@
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"rollup": "^3.26.3",
+		"rollup-plugin-dts": "^5.3.0",
 		"rollup-plugin-peer-deps-external": "^2.2.4",
 		"rollup-plugin-postcss": "^4.0.2",
 		"storybook": "^7.1.1",
@@ -64,7 +66,5 @@
 		"tslib": "^2.6.1",
 		"typescript": "^5.1.6"
 	},
-	"dependencies": {
-		"rollup-plugin-dts": "^5.3.0"
-	}
+	"dependencies": {}
 }

@@ -10,7 +10,7 @@ const button = tv({
 	},
 })
 
-type ButtonProps = NonNullable<VariantProps<typeof button>> & {
+type ButtonProps = Required<VariantProps<typeof button>> & {
 	label: string
 }
 

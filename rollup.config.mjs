@@ -32,6 +32,7 @@ const config = [
 			resolve(),
 			commonjs(),
 			typescript({
+				outputToFilesystem: true,
 				exclude: [/\.test.((js|jsx|ts|tsx))$/, /\.stories.((js|jsx|ts|tsx))$/],
 			}),
 			postcss({
